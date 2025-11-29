@@ -1,0 +1,17 @@
+<resources>
+    <style name="Base.Theme.Utsmobileprogduolingo" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+    <style name="Theme.Utsmobileprogduolingo" parent="Base.Theme.Utsmobileprogduolingo" />
+
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+
+        <item name="windowSplashScreenBackground">#212127</item>
+
+        <item name="windowSplashScreenAnimatedIcon">@drawable/bilingosplash</item>
+
+        <item name="postSplashScreenTheme">@style/Theme.Utsmobileprogduolingo</item>
+
+    </style>
+
+</resources>

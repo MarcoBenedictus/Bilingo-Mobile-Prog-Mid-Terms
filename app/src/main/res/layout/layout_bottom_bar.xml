@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="#141f23"
+    android:gravity="center_vertical">
+
+    <ImageButton
+        android:id="@+id/nav_learn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/icon_learn"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"/>
+
+    <ImageButton
+        android:id="@+id/nav_chest"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/icon_chest"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"/>
+
+    <ImageButton
+        android:id="@+id/nav_trophy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/icon_trophy"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"/>
+
+    <ImageButton
+        android:id="@+id/nav_heart"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/icon_heart"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"/>
+
+    <ImageButton
+        android:id="@+id/nav_shop"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/icon_shop"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"/>
+
+    <ImageButton
+        android:id="@+id/nav_settings"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/icon_settings"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"/>
+
+</LinearLayout>
